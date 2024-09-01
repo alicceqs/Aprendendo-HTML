@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> 
+body{ 
+   font-size:2rem;
+} 
+ 
+ #container{ 
+     width:1070px; 
+	 margin: 0 auto;
+   /* display: flex;/*
+   /*flex-direction: row;*/ /*todos os elementos numa única linha*/ 
+     flex-direction: colimn; /*todos os elementos numa única coluna*/ 
+} 
+   
+/*Uso da pseudoclasse :hover*/
+#link:hover { 
+  color: orange; 
+} 
+
+/*Uso do pseudoelemento ::first-line*/ 
+#container-texto{ 
+    padding:20px;
+	background-color:orange; 
+	border:30px solid #999; 
+	margin-top:50px;
+} 
+
+#container-texto::first-line { 
+  color: blue; 
+  text-transform: uppercase; 
+} 
+</style> 
+</head> 
+<body> 
+<div id="container"> 
+<h1>Pseudoclasses</h1> 
+<a href="#" id="link">Link</a> 
+
+<h2>Pseudoelementos</h2> 
+<p id="container-texto"> 
+ Leonardo di Ser Piero da Vinci (pron.ⓘ), ou simplesmente Leonardo da Vinci
+ (Anchiano, 15 de abril de 1452[2] — Amboise, 2 de maio de 1519), foi um polímata 
+ nascido na atual Itália,[2][nb 1] uma das figuras mais importantes do Alto Renascimento,
+ [2] que se destacou como cientista, matemático, engenheiro, inventor, anatomista,
+ pintor,escultor, arquiteto, botânico, poeta e músico.[3][4][5] É ainda conhecido como o
+ precursor da aviação e da balística.[3] Leonardo frequentemente foi descrito como o 
+ arquétipo do homem do Renascimento, alguém cuja curiosidade insaciável era igualada 
+ apenas pela sua capacidade de invenção.[6] É considerado um dos maiores pintores de todos 
+ os tempos e, possivelmente, a pessoa dotada de talentos mais diversos a ter vivido.[7]
+ Segundo Helen Gardner, historiadora de arte, a profundidade e o alcance de seus interesses
+ não tiveram precedentes e "sua mente e personalidade parecem sobre-humanos para nós, e o 
+ homem em si [nos parece] misterioso e distante".[6] 
+ </p> 
+ 
+ </body>  
+ </html> 
